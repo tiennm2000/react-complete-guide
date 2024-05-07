@@ -1,0 +1,57 @@
+.box {
+  box-shadow: 0 10px 15x rgba(0, 0, 0, 0.3);
+  background: #fff;
+}
+
+.box h3 {
+  font-size: 25px;
+  padding: 17px 0;
+  color: #444;
+}
+
+.box:nth-child(2) {
+  border: 2px solid #000;
+}
+
+.box:nth-child(2) .btn {
+  background: crimson;
+}
+
+.box:nth-child(2) .btn:hover {
+  background: #444;
+}
+
+.price {
+  color: #fff;
+  background: crimson;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.list {
+  margin: 20px 0;
+}
+
+.list p {
+  padding: 15px 0;
+  font-size: 17px;
+  color: #666;
+}
+
+.list p .fa-check {
+  padding-right: 5px;
+  color: crimson;
+}
+
+.btn {
+  margin: 20px;
+  display: block;
+  font-size: 17px;
+  background: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+.btn:hover {
+  background: crimson;
+}
